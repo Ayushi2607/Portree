@@ -100,7 +100,7 @@ hr {
 
 .vl {
     border-left: 1.5px solid black;
-    height: 120px;
+    height: 100px;
     width: 10px;
 }
 
@@ -115,7 +115,7 @@ hr {
     font-size: 12px !important;
 }
 
-.footer > .footer_bottom > p {
+.footer1 > .footer_bottom > p {
     color: white!important;
 }
 
@@ -254,4 +254,41 @@ hr {
   .verticaltext {
     writing-mode: vertical-rl;
     text-orientation: upright;
+  }
+
+
+  footer > .flex-container {
+     display: flex; 
+     flex-direction: row;
+     justify-content: space-around;
+     padding-top: 2rem;
+     font-size: 12px;
+  }
+
+  .flex-container1 {
+      margin-left: 3rem;
+      padding: 2rem;
+  }
+
+  .flex-shrink1 {
+      width: 22vw;
+      
+  }
+  
+  .flex-grow1 {
+      width: 28vw;
+      padding-left: 9%;
+  }
+
+  .flex-grow1 > p {
+      padding-left: 1rem;
+      font-size: 14px !important;
+      letter-spacing: 4px;
+  }
+
+  .circular {
+    border-top-left-radius: 90% 90%;
+    border-top-right-radius: 90% 90%;
+    border-bottom-right-radius: 90% 90%;
+    border-bottom-left-radius: 90% 90%;
   }
